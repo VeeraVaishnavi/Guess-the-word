@@ -14,7 +14,7 @@ body {
 
 .main-title {
   font-size: 60px;
-  color: #ffe3f1; /* soft pink-white */
+  color: #ffe3f1; 
   text-shadow: 0 0 12px rgba(255, 182, 193, 0.7);
   margin-bottom: 30px;
   font-weight: bold;
@@ -22,14 +22,14 @@ body {
 }
 
 .game-box {
-  background-color: #364f6b; /* deep blue */
+  background-color: #364f6b; 
   padding: 40px 30px;
   border-radius: 20px;
   box-shadow: 0 8px 25px rgb(250, 244, 244);
   text-align: center;
   width: 90%;
   max-width: 600px;
-  border: 2px solid #a2d2ff; /* pastel blue border */
+  border: 2px solid #a2d2ff;
 }
 
 .game-box h1,
@@ -39,7 +39,7 @@ div {
 }
 
 .scrambledWord {
-  background-color: #b373e3; /* vibrant pink */
+  background-color: #b373e3;
   padding: 15px 20px;
   border-radius: 10px;
   color: #ffffff;
@@ -88,7 +88,7 @@ div {
 }
 
 #wrong {
-  color: #ff4d6d; /* bright pink-red for wrong guesses */
+  color: #ff4d6d;
   font-weight: bold;
 }
 
