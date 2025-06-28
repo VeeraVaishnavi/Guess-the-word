@@ -55,7 +55,7 @@ function handleLetterInput(event) {
     const inputBox = event.target;
     const index = Array.from(inputContainer.children).indexOf(inputBox);
     const letter = inputBox.value.toLowerCase();
-    const inputBoxes = Array.from(inputContainer.children); // ✅ move here
+    const inputBoxes = Array.from(inputContainer.children); 
 
     if (!/^[a-z]$/.test(letter) || letter === "") {
         inputBox.value = "";
